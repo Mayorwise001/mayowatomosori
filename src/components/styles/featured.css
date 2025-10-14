@@ -61,15 +61,15 @@
 
 .project-details .subtitle,
 .project-details2 .subtitle {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--secondary-text-color);
   margin-bottom: 1rem;
 }
 
 .project-details p,
 .project-details2 p {
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 
 /* Buttons */
