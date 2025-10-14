@@ -33,7 +33,7 @@
   background-color: #000000;
   border-radius: 10px;
   padding: 20px;
-  width: 250px;
+  width: 450px;
   color: #ffffff;
   border: 1px solid  #7209b7; 
   margin-bottom: 20px; /* Add bottom margin for spacing */
@@ -44,7 +44,7 @@
 }
 
 .skillsCategory h3 {
-  font-size: 1.2em;
+  font-size: 1.6em;
   margin-bottom: 15px;
   color: #ffffff;
   font-family: "Roboto", "Sans-serif";
@@ -74,7 +74,7 @@
 }
 
 .skillItem span {
-  font-size: 0.9em;
+  font-size: 1.3em;
   /* color: rgb(27, 198, 67); ✅ Green text in dark mode */
   /* color: linear-gradient(90deg, #f72585, #7209b7); */
    color: #f72585;
