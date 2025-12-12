@@ -7,6 +7,30 @@ return(
 <section class="featured-projects" id="featured-projects">
   <h2>My Projects</h2>
 
+  <div class="project2">
+    <div class="project-details">
+      <h3>Finance Tracker Application</h3>
+      <p class="subtitle">Finance Tracker Application</p>
+      <p>
+       The Finance Tracker App is a modern web application designed to help users manage income, 
+       track expenses, categorize spending, and gain real-time financial insights. Built with React, 
+       it delivers an intuitive, responsive, and interactive experience that makes everyday budgeting effortless.
+
+This project demonstrates your expertise in frontend engineering, state management, 
+user-centered UI/UX design, and dynamic data visualization.
+      </p>
+
+ 
+
+      <div class="buttons">
+      <a href="https://finance-tracker-plum-seven.vercel.app/" class="btn live-preview">Live Preview</a>
+            </div>
+    </div>
+ <div className="project-image">
+  <YouTubeAutoPlay videoId="vfoVf0DZE_U" />
+
+</div>
+  </div>
   <div class="project">
     <div class="project-details">
       <h3>Ecommerce App FrontEnd</h3>
