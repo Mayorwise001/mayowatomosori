@@ -1,11 +1,91 @@
 import './styles/featured.css'
-
+import YouTubeAutoPlay from './youtube';
 
 const Featured =()=>{
 
 return(
 <section class="featured-projects" id="featured-projects">
   <h2>My Projects</h2>
+
+  <div class="project">
+    <div class="project-details">
+      <h3>Ecommerce App FrontEnd</h3>
+      <p class="subtitle">Ecommerce FrontEnd Application</p>
+      <p>
+       This is a modern, fully responsive eCommerce frontend application built using React.js 
+       and designed to deliver a clean, intuitive, and high-performance shopping experience. 
+       The application showcases essential eCommerce features.<br></br>
+       <b>Key Features </b> <br></br>
+
+      1. <b>Product Listing Page (PLP):</b>
+      Displays products dynamically with images, titles, prices, and category filters. <br></br>
+
+      2. <b>Product Search & Filtering:</b>
+      Users can search for products or filter by categories, price range, or keywords.<br></br>
+
+      3. <b>Product Detail Page (PDP):</b>
+      Expanded view containing detailed product information, specifications, and images.<br></br>
+
+      4. <b>Shopping Cart System:</b>
+      Users can add, remove, increase, or decrease item quantities and see totals update automatically.<br></br>
+
+      5. <b>Responsive UI/UX:</b>
+      Fully optimized for mobile, tablet, and desktop using modern layouts and clean visual hierarchy.<br></br>
+
+      <b>Reusable Components:</b><br></br>
+      Designed with reusable React components for cards, buttons, modals, loaders, navbars, and more.<br></br>
+
+      <b>Technology Stack</b><br></br>
+
+      1. React.js for component-based UI development<br></br>
+
+      2.React Router for multi-page navigation<br></br>
+
+      3. Context API / Redux (depending on your implementation) for state management<br></br>
+
+      4. CSS <br></br>
+
+      5. Axios / Fetch API for handling API requests
+      </p>
+
+ 
+
+      <div class="buttons">
+      <a href="https://ecommerce-store-kvtm.vercel.app/" class="btn live-preview">Live Preview</a>
+            </div>
+    </div>
+ <div className="project-image">
+  <YouTubeAutoPlay videoId="zWWY-4Uj6-g" />
+
+</div>
+  </div>
+
+  <div class="project2">
+    <div class="project-details">
+      <h3>Ecommerce App Backend</h3>
+      <p class="subtitle">Ecommerce BackEnd Application</p>
+      <p>
+       This project is a fully functional e-commerce backend system built with Node.js, Express.js, and MongoDB, 
+       designed to 
+       power modern online stores with secure data handling and efficient API operations.
+
+The backend provides all essential e-commerce functionalities, including product management, 
+user authentication, cart operations, and order processing. It is built with clean architecture
+ principles and optimized for scalability and performance
+      </p>
+
+ 
+
+      <div class="buttons">
+      <a href="https://backend-8ivf.onrender.com/" class="btn live-preview">Live Preview</a>
+            </div>
+    </div>
+ <div className="project-image">
+  <YouTubeAutoPlay videoId="8NKoMBxMep4" />
+
+</div>
+  </div>
+
 
   <div class="project">
     <div class="project-details">
@@ -23,31 +103,12 @@ This tool demonstrates expertise in backend development, database integration, a
       <a href="https://inventory-application-project.onrender.com/upload" class="btn live-preview">Live Preview</a>
             </div>
     </div>
- <div className="project-image">
-  <video
-    className="project-video"
-    src="invt.mkv"   // Replace with your actual video path
-    muted
-    autoPlay
-    playsInline
-    preload="none"
-    ref={(el) => {
-      if (el) {
-        const observer = new IntersectionObserver(
-          ([entry]) => {
-            if (entry.isIntersecting) {
-              el.play();
-            } else {
-              el.pause();
-            }
-          },
-          { threshold: 0.5 }
-        );
-        observer.observe(el);
-      }
-    }}
-  />
+    
+  <div className="project-image">
+  <YouTubeAutoPlay videoId="wlxj__6wKTk" />
+
 </div>
+
   </div>
   <div class="project2">
     <div class="project-details2">
@@ -78,30 +139,10 @@ Category Customization: Define and organize jobs into custom categories for bett
         <a href="https://frontend-blog-api.vercel.app/" class="btn live-preview">Live Preview</a>
       </div>
     </div>
-<div className="project-image">
-  <video
-    className="project-video"
-    src="jobadmin.mp4"   // Replace with your actual video path
-    muted
-    autoPlay
-    playsInline
-    preload="none"
-    ref={(el) => {
-      if (el) {
-        const observer = new IntersectionObserver(
-          ([entry]) => {
-            if (entry.isIntersecting) {
-              el.play();
-            } else {
-              el.pause();
-            }
-          },
-          { threshold: 0.5 }
-        );
-        observer.observe(el);
-      }
-    }}
-  />
+    
+  <div className="project-image">
+  <YouTubeAutoPlay videoId="8UwA2JdmXpc" />
+
 </div>
   </div>
 
@@ -120,30 +161,10 @@ The platform’s responsive design ensures compatibility across all devices, pro
       <a href="https://frontend-blog-api-users.vercel.app/" class="btn live-preview">Live Preview</a>
        </div>
     </div>
-<div className="project-image">
-  <video
-    className="project-video"
-    src="jobsdisplay.mp4"   // Replace with your actual video path
-    muted
-    autoPlay
-    playsInline
-    preload="none"
-    ref={(el) => {
-      if (el) {
-        const observer = new IntersectionObserver(
-          ([entry]) => {
-            if (entry.isIntersecting) {
-              el.play();
-            } else {
-              el.pause();
-            }
-          },
-          { threshold: 0.5 }
-        );
-        observer.observe(el);
-      }
-    }}
-  />
+    
+  <div className="project-image">
+  <YouTubeAutoPlay videoId="U86mlB_SzqU" />
+
 </div>
   </div>
 
@@ -167,30 +188,10 @@ The platform features a clean interface where users can browse products, explore
       
       </div>
     </div>
-<div className="project-image2">
-  <video
-    className="project-video"
-    src="cart.mp4"   // Replace with your actual video path
-    muted
-    autoPlay
-    playsInline
-    preload="none"
-    ref={(el) => {
-      if (el) {
-        const observer = new IntersectionObserver(
-          ([entry]) => {
-            if (entry.isIntersecting) {
-              el.play();
-            } else {
-              el.pause();
-            }
-          },
-          { threshold: 0.5 }
-        );
-        observer.observe(el);
-      }
-    }}
-  />
+    
+  <div className="project-image">
+  <YouTubeAutoPlay videoId="AjNS3Cbl22s" />
+
 </div>
 
   </div>
@@ -230,30 +231,9 @@ The Sceptre Chemicals website is a professionally designed platform built with W
       <a href="https://sceptrechemicals.org/" class="btn live-preview">Live Preview</a>
       </div>
     </div>
-<div className="project-image2">
-  <video
-    className="project-video"
-    src="sceptre.mp4"   // Replace with your actual video path
-    muted
-    autoPlay
-    playsInline
-    preload="none"
-    ref={(el) => {
-      if (el) {
-        const observer = new IntersectionObserver(
-          ([entry]) => {
-            if (entry.isIntersecting) {
-              el.play();
-            } else {
-              el.pause();
-            }
-          },
-          { threshold: 0.5 }
-        );
-        observer.observe(el);
-      }
-    }}
-  />
+  <div className="project-image">
+  <YouTubeAutoPlay videoId="73ekWMr1O1c" />
+
 </div>
   </div>
 
@@ -271,30 +251,10 @@ The Sceptre Chemicals website is a professionally designed platform built with W
       <a href="https://holaagroallied.com.ng/" class="btn live-preview">Live Preview</a>
       </div>
     </div>
-<div className="project-image2">
-  <video
-    className="project-video"
-    src="hola.mkv"   // Replace with your actual video path
-    muted
-    autoPlay
-    playsInline
-    preload="none"
-    ref={(el) => {
-      if (el) {
-        const observer = new IntersectionObserver(
-          ([entry]) => {
-            if (entry.isIntersecting) {
-              el.play();
-            } else {
-              el.pause();
-            }
-          },
-          { threshold: 0.5 }
-        );
-        observer.observe(el);
-      }
-    }}
-  />
+    
+  <div className="project-image2">
+  <YouTubeAutoPlay videoId="Tc_8bQZiis8" />
+
 </div>
   </div>
 
